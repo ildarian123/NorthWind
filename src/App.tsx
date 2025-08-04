@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import northwindLogo from './assets/northwind-logo.svg'
 
 function App() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -78,8 +79,11 @@ function App() {
 
       <main id="main" className="main-section">
         <div className="container">
+          <div className="logo-container">
+            <img src={northwindLogo} alt="NorthWind Logo" className="northwind-logo" />
+          </div>
           <h1>Welcome to NorthWind</h1>
-          <p>This is the main section of our website.</p>
+          <p>Professional server hosting and 1C services for your business</p>
         </div>
       </main>
       

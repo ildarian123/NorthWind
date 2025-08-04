@@ -84,6 +84,23 @@
   width: 100%;
 }
 
+.logo-container {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.northwind-logo {
+  width: 300px;
+  height: auto;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+  transition: transform 0.3s ease;
+}
+
+.northwind-logo:hover {
+  transform: scale(1.05);
+}
+
 .container {
   width: 100%;
   padding: 2rem;
@@ -504,6 +521,10 @@
 
   .main-section {
     padding: 8rem 0 4rem 0;
+  }
+
+  .northwind-logo {
+    width: 200px;
   }
 
   .about-content {
