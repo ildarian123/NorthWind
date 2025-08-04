@@ -35,6 +35,7 @@ function App() {
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index);
+    
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
